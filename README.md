@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Rambo-react.github.io/rsschool-cv/cv
