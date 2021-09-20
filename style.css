@@ -1,6 +1,27 @@
 body {
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+h2,
+h3 {
+    margin: 0 auto;
+}
+
+p,
+ul {
+    margin-top: 0;
+}
+
+p {
+    border-left: 3px solid rgb(136, 135, 135);
+    padding:0 10px;
+    margin-left: 10px;
 }
 
 .container {
@@ -10,17 +31,11 @@ body {
     border: 10px solid rgb(160, 191, 248);
 }
 
-h1 {
-    margin: 0 auto;
-}
-
-h2,
-h3 {
-    margin-top: 0;
-}
-
 .head {
     display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 5px solid rgb(0, 0, 0);
 }
 
 .head h3 {
@@ -28,6 +43,66 @@ h3 {
 }
 
 .avatar {
-   width: 120px;
+   width: 130px;
    border-radius: 10px;
+   margin: 0px 100px;
 }
+
+main {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+main h3 {
+    border-bottom: 4px solid rgba(128, 128, 128, 0.459);
+    margin: 10px;
+}
+
+.main-right {
+    border-left: 3px solid black ;
+}
+
+.footer-img {
+    width: 80px
+}
+
+footer {
+    margin-top: 10px;
+    display:flex;
+    font-size: 0.8em;
+}
+
+footer div {
+    margin:auto;
+}
+
+.contact {
+    position: relative;
+    margin: 10px;
+    padding:0;
+    padding-left: 10px;
+    line-height: 1;
+}
+
+.phone::before {
+    padding-right:10px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f879";
+}
+
+.letter::before {
+    padding-right:10px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0e0";   
+}
+
+.github::before {
+    padding-right:10px;
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    content: "\f09b";
+}
+
